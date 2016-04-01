@@ -17,6 +17,20 @@
       <div>已经选择的城市是: {{typehead.value}}</div>
       <typehead :items="typehead.data" placeholder="选择城市" :value.sync="typehead.value"></typehead>
     </div>
+
+    <div id="menu">
+      <h4>Menu组件</h4>
+      <menu size="lg">
+        <menu-item text="菜单一" icon="">
+          <menu-item text="子菜单一"  path="#/config"></menu-item>
+          <menu-item text="子菜单二" path="#/force"></menu-item>
+          <menu-item text="子菜单三" path="#/patch"></menu-item>
+        </menu-item>
+        <menu-item text="菜单二" icon="" path="#/abtest"></menu-item>
+        <menu-item text="菜单三" icon="" path="#/mobileconfig"></menu-item>
+        <menu-item text="菜单四" icon="" path="#/builds"></menu-item>
+      </menu>
+    </div>
   </div>
 </template>
 
