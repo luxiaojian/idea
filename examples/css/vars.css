@@ -1,0 +1,20 @@
+:root {
+  /* color */
+  --mainColor: #3781E0;
+  --fontColor: #4c4c4c;
+  --gray: #666;
+  --lighted: #999;
+  --headerColor: #fbfbfb;
+  --lineColor: #e4e4e4;
+
+  --successColor: #09bb07;
+  --dangerColor: #f43530;
+  --warningColor: #ffbe00;
+  --infoColor: #00acff;
+
+  /* fonts */
+  --font: PingFang SC, Lantinghei SC, Avenir, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+  --font-header: PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+  --font-serif: Palatino, Optima, Georgia, serif;
+  --font-code: Courier, 'Courier New', monospace;
+}
