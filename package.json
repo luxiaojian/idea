@@ -4,19 +4,16 @@
   "description": "write component on my own way",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --progress --hide-modules --watch",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
   },
   "keywords": [
     "vue",
     "ui-component"
   ],
-  "scripts": {
-    "dev": "webpack --progress --hide-modules --watch",
-    "build": "NODE_ENV=production webpack --progress --hide-modules"
-  },
   "dependencies": {
     "normalize.css": "^3.0.3",
-    "vue": "^1.0.17",
+    "vue": "^2.4.3",
     "vue-router": "^0.7.11"
   },
   "devDependencies": {
